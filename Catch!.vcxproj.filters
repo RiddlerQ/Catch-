@@ -15,28 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Catch!.cpp">
+    <ClCompile Include="source\Catch!.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bowl.cpp">
+    <ClCompile Include="source\Bowl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Egg.cpp">
+    <ClCompile Include="source\Egg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="source\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Egg.h">
+    <ClInclude Include="header\Egg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Bowl.h">
+    <ClInclude Include="header\Bowl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="header\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
   </ItemGroup>
 </Project>

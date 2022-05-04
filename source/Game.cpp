@@ -1,4 +1,4 @@
-#include "Game.h"
+#include "../header/Game.h"
 #include <iostream>
 #include <conio.h>
 #include <stdlib.h>

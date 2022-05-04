@@ -139,15 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bowl.cpp" />
-    <ClCompile Include="Catch!.cpp" />
-    <ClCompile Include="Egg.cpp" />
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="source\Bowl.cpp" />
+    <ClCompile Include="source\Catch!.cpp" />
+    <ClCompile Include="source\Egg.cpp" />
+    <ClCompile Include="source\Game.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bowl.h" />
-    <ClInclude Include="Egg.h" />
-    <ClInclude Include="Game.h" />
+    <ClInclude Include="header\Bowl.h" />
+    <ClInclude Include="header\Egg.h" />
+    <ClInclude Include="header\Game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

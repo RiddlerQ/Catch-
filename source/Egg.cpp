@@ -1,4 +1,4 @@
-#include "Egg.h"
+#include "../header/Egg.h"
 
 Egg::Egg(int x, int speed): speed(speed)
 {
